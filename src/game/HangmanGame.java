@@ -82,7 +82,7 @@ public class HangmanGame extends Applet implements ActionListener {
 		String delimiter = "\\|";
 		wordList = str.split(delimiter);
 		
-		Random rand = new Random();
+		Random rand = new Random(System.currentTimeMillis());
 		int randInt = rand.nextInt(wordList.length);
 		wordChoice = new String(wordList[randInt]);
 		
