@@ -159,6 +159,9 @@ public class HangmanGame extends Applet implements ActionListener {
 		
 	}
 	
+	/**
+	 * Processes user's turn after pressing the "Guess Word" button
+	 */
 	public void runTurnWord() {
 		
 		String temp, y;
